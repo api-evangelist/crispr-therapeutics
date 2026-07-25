@@ -1,8 +1,26 @@
 aid: crispr-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crispr-therapeutics.png
 name: CRISPR Therapeutics
-description: 'CRISPR Therapeutics is a company surfaced as a portfolio company of nea and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CRISPR Therapeutics (NASDAQ: CRSP) is a clinical-stage biotechnology company
+  founded in 2013 and headquartered in Zug, Switzerland, with US operations in Boston,
+  Massachusetts. Co-founded by CRISPR/Cas9 pioneer Emmanuelle Charpentier, the company
+  develops transformative gene-based medicines for serious human diseases. Its programs
+  span hemoglobinopathies, immuno-oncology, regenerative medicine, and in-vivo editing;
+  its lead therapy CASGEVY (exagamglogene autotemcel), developed with Vertex Pharmaceuticals,
+  is the first approved CRISPR/Cas9 gene-editing treatment for sickle cell disease and
+  transfusion-dependent beta thalassemia. This is a corporate/investor web presence with
+  no public developer program or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/crispr-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Gene Editing
+- CRISPR
+- Genomics
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crispr-therapeutics-domain-security.yml
 - type: Website
   url: https://www.crisprtx.com
+- type: PrivacyPolicy
+  url: https://crisprtx.com/about-us/privacy-policy
+- type: TermsOfService
+  url: https://crisprtx.com/about-us/terms-and-conditions
+- type: Support
+  url: https://crisprtx.com/about-us/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
